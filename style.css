@@ -127,13 +127,14 @@ hr {
     padding-top: 100px;
     padding-left: 13px;
     padding-right: 13px;
-    gap: 40px;
+    padding-bottom: 50px;
+    gap: 30px;
 }
 
 #section-F-E {
     display: flex;
     flex-direction: column;
-    width: 65vw;
+    width: 70vw;
 
 }
 
@@ -157,20 +158,21 @@ hr {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    gap: 15px;
+    gap: 20px;
 }
 
 .Card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .Card-E {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .Card-Azul {
@@ -215,6 +217,12 @@ hr {
 #section-F-D {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+#section-F-D > img {
+    height: auto;
+    width: 800px;
 }
 
 #heading-E {
@@ -239,27 +247,30 @@ hr {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
-    gap: 20px;
+    gap: 10px;
 }
 
 #Cards-D img{
     height: auto;
-    width: 150px;
+    width: 120px;
 }
 
 .Card-Texts-D {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 20px;
 }
 
-.Card-Texts-D>div {
-    background-color: #1D4ED8;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 13px;
-    padding-right: 13px;
-    border: 2px solid transparent;
-    border-radius: 8px;
+.Card-Texts-D>div>h1{
+    font-family: archivo, sans-serif;
+    font-size: 14px;
+    color: #F1F5F9;
 }
+
+.Card-Texts-D span{
+    font-family: archivo, sans-serif;
+    font-size: 14px;
+    color: #F1F5F9;
+}
+
