@@ -61,9 +61,41 @@ hr {
     justify-content: center;
 }
 
+#img-maior{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: archivo, sans-serif;
+    font-style: bold;
+    color: #F1F5F9;
+}
+
 #img-maior>img {
+    display: block;
     height: auto;
     width: 900px;
+}
+
+#img-maior>div {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #1D4ED8;
+    font-size: 12px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+#img-maior>span{
+    position: absolute;
+    top: 530px;
+    left: 10px;
+    font-size: 24px;
 }
 
 #imgs-direita {
@@ -74,14 +106,46 @@ hr {
 
 }
 
-.p {
-    display: flex;
-    gap: 15px;
+#imgs-direita>div {
+    position: relative;
+    display: flex;   
+    gap: 20px; 
 }
 
-.p>img {
+#img-p{
+    display: block;
     height: auto;
     width: 420px;
+}
+
+#p1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: archivo, sans-serif;
+    font-style: bold;
+    color: #F1F5F9;
+}
+
+#p1>div{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #1D4ED8;
+    font-size: 12px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+#p1>span{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    font-size: 16px;
 }
 
 #card-meio {
@@ -111,14 +175,43 @@ hr {
 #card-meio-baixo {
     display: flex;
     gap: 20px;
-    align-items: center;
-    justify-content: center;
+    
+}
+
+.card-meio-baixo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+    color: #F1F5F9;
+    font-family: archivo, sans-serif;
 
 }
 
-#card-meio-baixo>img {
+.card-meio-baixo>div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #1D4ED8;
+    font-size: 12px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.card-meio-baixo>img {
+    display: block;
     height: auto;
     width: 455px;
+}
+
+.card-meio-baixo>h1 {
+    font-size: 16px;
+
 }
 
 #section-F {
@@ -220,7 +313,7 @@ hr {
     align-items: center;
 }
 
-#section-F-D > img {
+#section-F-D>img {
     height: auto;
     width: 800px;
 }
@@ -250,7 +343,7 @@ hr {
     gap: 10px;
 }
 
-#Cards-D img{
+#Cards-D img {
     height: auto;
     width: 120px;
 }
@@ -262,15 +355,14 @@ hr {
     gap: 20px;
 }
 
-.Card-Texts-D>div>h1{
+.Card-Texts-D>div>h1 {
     font-family: archivo, sans-serif;
     font-size: 14px;
     color: #F1F5F9;
 }
 
-.Card-Texts-D span{
+.Card-Texts-D span {
     font-family: archivo, sans-serif;
     font-size: 14px;
     color: #F1F5F9;
 }
-
